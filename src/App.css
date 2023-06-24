@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  min-height: 100vh;
+  /* justify-content: center; */
+
+  background-image: linear-gradient(rgb(106, 47, 120), rgb(222, 108, 55));
+  /* border: 1px solid rgb(18, 65, 47); */
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  gap: 3px;
+}
+
+.form-container,
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  /* height: 70vh;
+  width: 70vw;
+  background-image: linear-gradient(rgb(66, 210, 160), rgb(134, 217, 237));
+  border: 1px solid rgb(18, 65, 47); */
+}
+
+.form-container {
+  width: 50%;
+  padding: 5rem;
+  border: 1px solid rgb(239, 248, 245);
+  ;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.save-button {
+  background-color: rgb(125, 39, 112);
+  padding: 1rem;
+  border: none;
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-content {
+  background-image: linear-gradient(rgb(106, 47, 120), rgb(222, 108, 55));
+  padding: 10%;
+  width: 50%;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  background-image: linear-gradient(rgb(149, 76, 167), rgb(228, 131, 86));
+
+  /* background-color: rgb(234, 195, 249); */
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  gap: 10px;
+  /* height: 100%; */
+  align-content: space-evenly;
+  /* height: 90%; */
+}
+
+.card-content {
+  /* height: 70%; */
+  /* border: 1px solid black; */
+  background-color: rgb(234, 195, 249);
+  border-radius: 10px;
+  box-shadow: 0.70px;
+  padding: 1rem;
+  /* box-shadow: 2px 0px 9px 2px #888888; */
+}
+
+.edit-fav {
+  /* height: 30%; */
+  display: grid;
+  gap: 5%;
+}
+
+.info {
+  background-color: rgb(234, 195, 249);
+
+  display: grid;
+  direction: row;
+  gap: 1rem;
+}
+
+.name-field,
+.phone-field,
+.email-field {
+  display: flex;
+
+}
+.edit-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+  background-image: linear-gradient(rgb(149, 76, 167), rgb(228, 131, 86));
+}
+.edit-reg-form{
+  width: 50%;
+    display: grid;
+    justify-content: center;
+}
+
+.favourites-list
+{
+  width: 50%;
+    display: grid;
+    justify-content: center;
+}
+
+.error-message{
+  color: rgb(33, 11, 11);
+}
