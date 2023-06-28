@@ -19,7 +19,7 @@
 .reg-form {
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  /* width: 30vw; */
   /* height: 70vh;
   width: 70vw;
   background-image: linear-gradient(rgb(66, 210, 160), rgb(134, 217, 237));
